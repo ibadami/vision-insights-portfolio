@@ -27,31 +27,33 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="animate-fade-in">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              <span className="bg-gradient-primary bg-clip-text text-transparent">
-                Computer Vision
-              </span>
+              <span className="text-foreground">Ishrat Badami</span>
               <br />
-              <span className="text-foreground">& ML Engineer</span>
+              <span className="bg-gradient-primary bg-clip-text text-transparent">
+                Sr. Applied ML Engineer
+              </span>
             </h1>
             
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Transforming complex data into intelligent solutions. 
-              I help businesses leverage the power of artificial intelligence 
-              and machine learning.
+              Applied Machine Learning and Computer Vision Engineer with 12+ years of experience 
+              building and deploying scalable ML and deep learning systems. Transforming complex 
+              business problems into impactful, revenue-generating AI products.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button 
                 size="lg" 
                 className="bg-gradient-primary hover:shadow-glow-primary transition-all duration-300 group"
+                onClick={() => window.open('https://medium.com/@badami.ishrat', '_blank')}
               >
-                View My Work
+                View My Blog
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
               
               <Button 
                 variant="outline" 
                 size="lg"
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
                 className="border-primary/30 hover:border-primary hover:shadow-glow-accent transition-all duration-300"
               >
                 <Mail className="mr-2 h-4 w-4" />

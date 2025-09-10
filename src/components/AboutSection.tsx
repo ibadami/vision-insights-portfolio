@@ -6,18 +6,18 @@ const AboutSection = () => {
   const highlights = [
     {
       icon: Brain,
-      title: "Machine Learning",
-      description: "Deep expertise in neural networks, deep learning, and AI model development"
+      title: "12+ Years Experience",
+      description: "Extensive experience in classical ML and deep learning systems across multiple industries"
     },
     {
       icon: Eye,
-      title: "Computer Vision",
-      description: "Advanced image processing, object detection, and visual recognition systems"
+      title: "Computer Vision Expert",
+      description: "Advanced expertise in CNNs, RNNs, vision-language transformers, and multimodal LLMs"
     },
     {
       icon: Zap,
-      title: "Innovation",
-      description: "Cutting-edge solutions that push the boundaries of what's possible"
+      title: "Revenue Impact",
+      description: "Proven track record of translating business problems into impactful, revenue-generating products"
     }
   ];
 
@@ -30,9 +30,10 @@ const AboutSection = () => {
               About <span className="bg-gradient-primary bg-clip-text text-transparent">Me</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              I'm a passionate computer vision and machine learning engineer with a drive to 
-              solve complex problems using artificial intelligence. My approach combines 
-              technical expertise with creative problem-solving.
+              Applied Machine Learning and Computer Vision Engineer with 12+ years of experience 
+              building and deploying scalable classical machine learning and deep learning systems. 
+              Proficient in the entire ML lifecycle, from data collection and model fine-tuning 
+              to model evaluation, validation, and production deployment.
             </p>
           </div>
 
@@ -40,14 +41,16 @@ const AboutSection = () => {
             <div className="animate-slide-up delay-200">
               <h3 className="text-2xl font-semibold mb-6 text-foreground">My Journey</h3>
               <p className="text-muted-foreground mb-4 leading-relaxed">
-                With years of experience in the field, I've worked on projects ranging from 
-                autonomous systems to medical imaging, always pushing the envelope of what's 
-                possible with AI technology.
+                With 12+ years of experience across healthcare, media, and academic research, I've 
+                specialized in building end-to-end ML pipelines and deploying production systems. 
+                From leading technical presentations that secured $5.5M Series A funding to 
+                co-authoring approved US patents, I bring both technical depth and business acumen.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                I believe in the power of technology to transform industries and improve lives. 
-                My consultancy work focuses on helping businesses integrate AI solutions that 
-                are not just technically sound, but also practical and scalable.
+                My expertise spans classical ML algorithms (Linear Regression, SVM, Random Forest) 
+                to cutting-edge deep learning architectures (CNNs, RNNs, vision-language transformers). 
+                I excel at translating open-ended business problems into scalable AI solutions that 
+                deliver tangible value.
               </p>
             </div>
             
@@ -56,8 +59,10 @@ const AboutSection = () => {
                 <CardContent className="p-8">
                   <h4 className="text-xl font-semibold mb-4 text-primary">Philosophy</h4>
                   <blockquote className="text-muted-foreground italic leading-relaxed">
-                    "The best AI solutions are those that seamlessly integrate into existing 
-                    workflows, enhancing human capabilities rather than replacing them."
+                    "The best AI solutions seamlessly integrate into existing workflows, 
+                    enhancing human capabilities while delivering measurable business impact. 
+                    Success comes from understanding both the technical possibilities and 
+                    the real-world constraints."
                   </blockquote>
                 </CardContent>
               </Card>

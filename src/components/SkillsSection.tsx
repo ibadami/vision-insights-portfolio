@@ -6,41 +6,41 @@ const SkillsSection = () => {
   const skillCategories = [
     {
       category: "Programming Languages",
-      skills: ["Python", "R", "C++", "JavaScript", "SQL", "MATLAB"],
+      skills: ["Python", "Bash"],
       color: "bg-primary/20 text-primary"
     },
     {
-      category: "Machine Learning",
-      skills: ["TensorFlow", "PyTorch", "Scikit-learn", "Keras", "XGBoost", "MLflow"],
+      category: "ML Architectures",
+      skills: ["CNN", "RNN", "LLM", "vLLM", "Whisper v3", "SAM", "RAG"],
       color: "bg-accent/20 text-accent"
     },
     {
-      category: "Computer Vision",
-      skills: ["OpenCV", "YOLO", "Detectron2", "MediaPipe", "PIL", "ImageIO"],
+      category: "Frameworks & Libraries",
+      skills: ["PyTorch", "Transformers", "OpenCV", "Scikit-image", "NumPy", "Scikit-learn", "Plotly", "Pandas", "Streamlit"],
       color: "bg-primary/20 text-primary"
     },
     {
-      category: "Cloud & DevOps",
-      skills: ["AWS", "Docker", "Kubernetes", "Git", "CI/CD", "MLOps"],
+      category: "Tools & Platforms",
+      skills: ["Docker", "Git", "Github Actions", "AWS S3", "AWS EC2", "AWS Sagemaker"],
       color: "bg-accent/20 text-accent"
     },
     {
-      category: "Data Science",
-      skills: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Jupyter", "Apache Spark"],
+      category: "Applied Areas",
+      skills: ["Object Detection", "Image Classification", "Semantic Segmentation", "Content Moderation", "Brand Detection"],
       color: "bg-primary/20 text-primary"
     },
     {
-      category: "Specialized Tools",
-      skills: ["CUDA", "OpenVINO", "ONNX", "Weights & Biases", "Roboflow", "Label Studio"],
+      category: "ML Operations",
+      skills: ["End-to-End ML Pipelines", "Data Preprocessing", "Model Evaluation", "Hyperparameter Tuning", "Experiment Tracking", "Performance Optimization"],
       color: "bg-accent/20 text-accent"
     }
   ];
 
   const achievements = [
-    { metric: "5+", label: "Years Experience" },
-    { metric: "50+", label: "Projects Completed" },
-    { metric: "20+", label: "Happy Clients" },
-    { metric: "99%", label: "Success Rate" }
+    { metric: "12+", label: "Years Experience" },
+    { metric: "$5.5M", label: "Funding Secured" },
+    { metric: "1", label: "US Patent" },
+    { metric: "5", label: "Publications" }
   ];
 
   return (
@@ -117,6 +117,13 @@ const SkillsSection = () => {
                 </p>
                 <a 
                   href="#contact"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    const element = document.querySelector('#contact');
+                    if (element) {
+                      element.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
                   className="inline-flex items-center px-6 py-3 bg-gradient-primary text-primary-foreground rounded-lg hover:shadow-glow-primary transition-all duration-300"
                 >
                   Start a Conversation

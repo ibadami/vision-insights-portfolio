@@ -19,6 +19,14 @@ const Navigation = () => {
     { href: "#contact", label: "Contact" },
   ];
 
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+    const element = document.querySelector(href);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <nav className={cn(
       "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
@@ -37,7 +45,8 @@ const Navigation = () => {
               <a
                 key={item.href}
                 href={item.href}
-                className="text-muted-foreground hover:text-primary transition-colors duration-200 relative group"
+                onClick={(e) => handleNavClick(e, item.href)}
+                className="text-muted-foreground hover:text-primary transition-colors duration-200 relative group cursor-pointer"
               >
                 {item.label}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
