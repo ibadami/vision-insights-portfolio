@@ -213,8 +213,6 @@ const ContactSection = () => {
                             <a href={method.href} target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-foreground hover:text-primary transition-all duration-300">
                               {method.action}
                             </a>
-                          ) : method.isScheduler ? (
-                            <p className="text-sm font-medium text-foreground">{method.action}</p>
                           ) : (
                             <p className="text-sm font-medium text-foreground">{method.action}</p>
                           )}

@@ -15,39 +15,27 @@ const ServicesSection = () => {
     {
       icon: Camera,
       title: "Computer Vision Solutions",
-      description: "Custom image processing, object detection, and visual recognition systems tailored to your business needs.",
-      features: ["Object Detection", "Image Classification", "Facial Recognition", "OCR Systems"]
+      description: "Custom image and video processing, and visual recognition systems tailored to your business needs.",
+      features: ["Classification", "Captioning", "Search", "Embedding"]
     },
     {
       icon: Cpu,
       title: "Machine Learning Models",
-      description: "End-to-end ML model development from data preprocessing to production deployment.",
-      features: ["Predictive Analytics", "Deep Learning", "NLP Solutions", "Model Optimization"]
-    },
-    {
-      icon: Database,
-      title: "Data Engineering",
-      description: "Build robust data pipelines and infrastructure to support your AI initiatives.",
-      features: ["Data Pipeline Design", "ETL Processes", "Data Validation", "Cloud Integration"]
-    },
-    {
-      icon: Target,
-      title: "AI Strategy Consulting",
-      description: "Strategic guidance on how to integrate AI technologies into your business operations.",
-      features: ["Technology Assessment", "ROI Analysis", "Implementation Roadmap", "Team Training"]
+      description: "Custom machine learning model pipelines for structured or unstructured data.",
+      features: ["Predictive Analytics", "Deep Learning", "Model Tuning", "Model Validation",]
     },
     {
       icon: BarChart3,
       title: "Performance Optimization",
       description: "Optimize existing AI systems for better performance, accuracy, and efficiency.",
-      features: ["Model Tuning", "Performance Analysis", "Cost Optimization", "Scalability Planning"]
+      features: [ "Performance Analysis","Model Optimization", "Cost Optimization", "Scalability Planning"]
     },
     {
-      icon: Shield,
-      title: "AI Auditing & Validation",
-      description: "Ensure your AI systems are reliable, fair, and compliant with industry standards.",
-      features: ["Bias Detection", "Model Validation", "Security Assessment", "Compliance Review"]
-    }
+      icon: Target,
+      title: "GenAI Strategy Consulting",
+      description: "Strategic guidance on how to integrate AI technologies into your business operations.",
+      features: ["Technology Assessment", "ROI Analysis", "Implementation Roadmap", "Team Training"]
+    },
   ];
 
   return (
@@ -64,7 +52,7 @@ const ServicesSection = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {services.map((service, index) => (
               <Card 
                 key={index}
@@ -93,12 +81,6 @@ const ServicesSection = () => {
                       </li>
                     ))}
                   </ul>
-                  <Button 
-                    variant="outline" 
-                    className="w-full border-primary/30 hover:border-primary hover:shadow-glow-accent transition-all duration-300"
-                  >
-                    Learn More
-                  </Button>
                 </CardContent>
               </Card>
             ))}

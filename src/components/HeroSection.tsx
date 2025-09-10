@@ -30,14 +30,12 @@ const HeroSection = () => {
               <span className="text-foreground">Ishrat Badami</span>
               <br />
               <span className="bg-gradient-primary bg-clip-text text-transparent">
-                Sr. Applied ML Engineer
+                Applied ML Engineer and AI Consultant
               </span>
             </h1>
             
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Applied Machine Learning and Computer Vision Engineer with 12+ years of experience 
-              building and deploying scalable ML and deep learning systems. Transforming complex 
-              business problems into impactful, revenue-generating AI products.
+            Welcome to my professional portfolio. Scroll down to learn more about my experience, skills and services.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

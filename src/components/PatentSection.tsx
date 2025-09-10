@@ -10,7 +10,7 @@ const PatentSection = () => {
     patentNumber: "US11875491B2",
     status: "Approved",
     description: "Co-authored US patent for automatic de-aging and digital makeup using AI for the product named Vanity AI. This innovative system leverages advanced computer vision and machine learning techniques to perform real-time facial transformations and enhancements.",
-    applicationDate: "Filed during tenure at MARZ Inc.",
+    applicationDate: "2021",
     inventors: "Ishrat Badami et al.",
     assignee: "MARZ Inc.",
     url: "https://patents.google.com/patent/US11875491B2",
@@ -112,7 +112,7 @@ const PatentSection = () => {
             </Card>
           </div>
 
-          <div className="text-center mt-12 animate-slide-up" style={{ animationDelay: "400ms" }}>
+          {/* <div className="text-center mt-12 animate-slide-up" style={{ animationDelay: "400ms" }}>
             <Card className="bg-gradient-card border-border/50 max-w-2xl mx-auto">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-semibold mb-4 text-foreground">
@@ -139,7 +139,7 @@ const PatentSection = () => {
                 </div>
               </CardContent>
             </Card>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

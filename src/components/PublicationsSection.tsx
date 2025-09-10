@@ -111,34 +111,6 @@ const PublicationsSection = () => {
               </Card>
             ))}
           </div>
-
-          <div className="text-center mt-12 animate-slide-up" style={{ animationDelay: "800ms" }}>
-            <Card className="bg-gradient-card border-border/50 max-w-2xl mx-auto">
-              <CardContent className="p-8">
-                <h3 className="text-2xl font-semibold mb-4 text-foreground">
-                  Research Impact
-                </h3>
-                <p className="text-muted-foreground mb-6">
-                  My research focuses on practical applications of computer vision and machine learning, 
-                  with contributions spanning 3D scene understanding, object detection, and robotic systems.
-                </p>
-                <div className="flex justify-center gap-8 text-center">
-                  <div>
-                    <div className="text-2xl font-bold text-primary">5</div>
-                    <div className="text-sm text-muted-foreground">Publications</div>
-                  </div>
-                  <div>
-                    <div className="text-2xl font-bold text-primary">6</div>
-                    <div className="text-sm text-muted-foreground">Years Active</div>
-                  </div>
-                  <div>
-                    <div className="text-2xl font-bold text-primary">3</div>
-                    <div className="text-sm text-muted-foreground">Research Areas</div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
         </div>
       </div>
     </section>
