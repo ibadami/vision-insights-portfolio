@@ -42,10 +42,10 @@ const ContactSection = () => {
     },
     {
       icon: Calendar,
-      title: "Let's Chat",
-      description: "Schedule a 30-minute consultation",
+      title: "Schedule a Meeting",
+      description: "Book a consultation directly through my calendar",
       action: "Book a meeting",
-      href: "https://calendly.com/badami-ishrat/30min",
+      href: "https://calendar.app.google/c3nTf2Q78iPHeNiJA",
       color: "text-accent"
     },
     {
@@ -213,6 +213,8 @@ const ContactSection = () => {
                             <a href={method.href} target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-foreground hover:text-primary transition-all duration-300">
                               {method.action}
                             </a>
+                          ) : method.isScheduler ? (
+                            <p className="text-sm font-medium text-foreground">{method.action}</p>
                           ) : (
                             <p className="text-sm font-medium text-foreground">{method.action}</p>
                           )}
