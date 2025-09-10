@@ -16,4 +16,14 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  build: {
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, 'index.html')
+      }
+    },
+    // Copy CNAME file to dist folder to preserve custom domain
+    copyPublicDir: true,
+  },
+  publicDir: 'public',
 }));
