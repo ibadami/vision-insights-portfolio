@@ -72,7 +72,7 @@ const ContactSection = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-muted/30">
+    <section id="contact" className="py-20 bg-background">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-slide-up">
@@ -222,13 +222,11 @@ const ContactSection = () => {
                   </Card>
                 ))}
               </div>
-            </div>
-
-            {/* Social Links */}
+              {/* Social Links */}
             <div className="space-y-8 animate-slide-up lg:col-span-2" style={{ animationDelay: "400ms" }}>
-              <h3 className="text-2xl font-semibold mb-8 text-foreground text-center">Connect With Me</h3>
+              <h3 className="text-2xl font-semibold mb-8 text-foreground text-left">Connect With Me</h3>
               
-              <div className="flex justify-center space-x-4">
+              <div className="flex justify-left space-x-4">
                 {socialLinks.map((social, index) => (
                   <a
                     key={index}
@@ -241,6 +239,7 @@ const ContactSection = () => {
                   </a>
                 ))}
               </div>
+            </div>
             </div>
           </div>
         </div>

@@ -11,7 +11,8 @@ const PublicationsSection = () => {
       venue: "IEEE WACV",
       year: "2017",
       type: "Conference",
-      description: "Advanced 3D semantic segmentation techniques for modular furniture using reversible jump Markov Chain Monte Carlo algorithms."
+      description: "Advanced 3D semantic segmentation techniques for modular furniture using reversible jump Markov Chain Monte Carlo algorithms.",
+      url: "https://www.researchgate.net/publication/311796081_3D_Semantic_Segmentation_of_Modular_Furniture_using_rjMCMC"
     },
     {
       title: "Semantic Segmentation of Modular Furniture",
@@ -19,7 +20,8 @@ const PublicationsSection = () => {
       venue: "IEEE WACV",
       year: "2016",
       type: "Conference",
-      description: "Novel approaches to semantic segmentation of modular furniture in indoor environments."
+      description: "Novel approaches to semantic segmentation of modular furniture in indoor environments.",
+      url: "https://www.researchgate.net/publication/303563895_Semantic_segmentation_of_modular_furniture"
     },
     {
       title: "Depth-Enhanced Hough Forests for Object-Class Detection",
@@ -27,7 +29,8 @@ const PublicationsSection = () => {
       venue: "SPME @ ICRA",
       year: "2013",
       type: "Workshop",
-      description: "Enhanced object detection using depth information and Hough Forest algorithms for RGB-D images."
+      description: "Enhanced object detection using depth information and Hough Forest algorithms for RGB-D images.",
+      url: "https://www.researchgate.net/publication/237841683_Depth-Enhanced_Hough_Forests_for_Object-Class_Detection_and_Continuous_Pose_Estimation"
     },
     {
       title: "Material Recognition: Bayesian Framework or SVMs?",
@@ -35,7 +38,8 @@ const PublicationsSection = () => {
       venue: "CESCG",
       year: "2012",
       type: "Conference",
-      description: "Comparative study of Bayesian frameworks versus Support Vector Machines for material recognition tasks."
+      description: "Comparative study of Bayesian frameworks versus Support Vector Machines for material recognition tasks.",
+      url: "https://cg.cs.uni-bonn.de/backend/v1/files/publications/Badami-Material_Recognition_Bayesian_Inference_or_SVMs.pdf-c36eeeaea5c6b464858731d473a63c83.pdf"
     },
     {
       title: "NimbRo@Home: Winning Team of RoboCup@Home 2012",
@@ -43,7 +47,8 @@ const PublicationsSection = () => {
       venue: "RoboCup Symposium",
       year: "2012",
       type: "Symposium",
-      description: "Technical report on the winning RoboCup@Home 2012 team, showcasing advanced robotics and AI integration."
+      description: "Technical report on the winning RoboCup@Home 2012 team, showcasing advanced robotics and AI integration.",
+      url: "https://www.researchgate.net/publication/233860881_NimbRoHome_Winning_Team_of_the_RoboCupHome_Competition_2012"
     }
   ];
 
@@ -61,7 +66,7 @@ const PublicationsSection = () => {
   };
 
   return (
-    <section id="publications" className="py-20 bg-muted/30">
+    <section id="publications" className="py-20 bg-background">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-slide-up">
@@ -95,7 +100,9 @@ const PublicationsSection = () => {
                   </div>
                   
                   <h3 className="text-xl font-semibold mb-3 text-foreground">
-                    {publication.title}
+                    <a href={publication.url} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                      {publication.title} <ExternalLink className="h-4 w-4 text-primary" />
+                    </a>
                   </h3>
                   
                   <div className="mb-3">

@@ -33,7 +33,7 @@ const AboutSection = () => {
               With 12+ years of experience across academic research, healthcare, VFX, and Ad Tech, I've 
               specialized in building end-to-end ML pipelines and deploying production systems. 
               From leading technical presentations that secured $5.5M Series A funding to 
-              co-authoring approved US patents, I bring both technical depth and business acumen.
+              co-authoring approved US patent and academic publications, I bring both technical depth and business acumen.
             </p>
           </div>
 
@@ -42,8 +42,8 @@ const AboutSection = () => {
               <h3 className="text-2xl font-semibold mb-6 text-foreground">My Journey</h3>
               <p className="text-muted-foreground mb-4 leading-relaxed">
               I began my journey in machine learning in 2013 after completing my Master’s in Computer Science with a focus on Computer Vision and Graphics at the University of Bonn, Germany.
-              I then worked as a Research and Teaching Assistant at the RWTH Aachen University on an EU-funded project called STRANDS. My research focused on 3D understanding of indoor environments—modeling furniture and assessing cabinet and shelf affordances—so robots could navigate spaces and interact with objects for tasks such as tidying up or retrieving tools.
-              After academia, I transitioned to industry as a Machine Learning Engineer at NevisQ, where I developed fall-detection systems using infrared sensor strips installed in elderly care facilities—helping address staff shortages and improve resident safety.
+              I then worked as a Research and Teaching Assistant at the RWTH Aachen University on an EU-funded project called STRANDS. My research focused on 3D understanding of indoor environments—modeling furniture and assessing cabinet and shelf affordances; so robots could navigate spaces and interact with objects for tasks such as tidying up or retrieving tools.
+              After academia, I transitioned to industry as a Machine Learning Engineer at NevisQ, where I developed fall-detection systems using infrared sensor strips installed in elderly care facilities; helping address staff shortages and improve resident safety.
               When I moved to Canada, I joined MARZ VFX as a Computer Vision Engineer, where I spearheaded the patent submission and production deployment of an automatic de-aging pipeline. This technology was successfully applied to projects such as Zoe’s Playlist and Turner & Hooch, enabling automated blemish correction on lead actors in post-production.
 Later, I contributed to technical discussions and presentations that supported raising a $5.5M AI Series A investment. At TripleLift, my work focused on analyzing large volumes of video content to identify brand-safe and brand-suitable moments for ad insertion.
                </p>
@@ -62,7 +62,7 @@ Later, I contributed to technical discussions and presentations that supported r
                   <img 
                     src="/photo.jpeg" 
                     alt="Ishrat Badami" 
-                    className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border-4 border-primary/20 shadow-lg hover:shadow-glow-primary transition-all duration-300"
+                    className="w-65 h-65 md:w-80 md:h-80 rounded-full object-cover border-4 border-primary/20 shadow-lg hover:shadow-glow-primary transition-all duration-300"
                   />
                   <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary/10 to-accent/10"></div>
                 </div>

@@ -19,7 +19,7 @@ const PatentSection = () => {
   };
 
   return (
-    <section id="patents" className="py-20 bg-background">
+    <section id="patents" className="py-20 bg-muted/30">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-slide-up">
@@ -111,35 +111,6 @@ const PatentSection = () => {
               </CardContent>
             </Card>
           </div>
-
-          {/* <div className="text-center mt-12 animate-slide-up" style={{ animationDelay: "400ms" }}>
-            <Card className="bg-gradient-card border-border/50 max-w-2xl mx-auto">
-              <CardContent className="p-8">
-                <h3 className="text-2xl font-semibold mb-4 text-foreground">
-                  Innovation Leadership
-                </h3>
-                <p className="text-muted-foreground mb-6">
-                  This patent demonstrates my ability to translate cutting-edge research into 
-                  practical, commercially viable AI solutions that push the boundaries of 
-                  what's possible in computer vision and image processing.
-                </p>
-                <div className="flex justify-center gap-8 text-center">
-                  <div>
-                    <div className="text-2xl font-bold text-primary">1</div>
-                    <div className="text-sm text-muted-foreground">US Patent</div>
-                  </div>
-                  <div>
-                    <div className="text-2xl font-bold text-primary">AI/VFX</div>
-                    <div className="text-sm text-muted-foreground">Technology Area</div>
-                  </div>
-                  <div>
-                    <div className="text-2xl font-bold text-primary">2022</div>
-                    <div className="text-sm text-muted-foreground">Patent Year</div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </div> */}
         </div>
       </div>
     </section>
