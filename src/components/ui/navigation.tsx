@@ -39,8 +39,15 @@ const Navigation = () => {
     )}>
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-            Portfolio
+          <div className="flex items-center space-x-3">
+            <img 
+              src="/white_logo_transparent_background.png" 
+              alt="Ishrat Badami Logo" 
+              className="h-8 w-auto object-contain hover:opacity-80 transition-opacity duration-200"
+            />
+            <div className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
+              Portfolio
+            </div>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
