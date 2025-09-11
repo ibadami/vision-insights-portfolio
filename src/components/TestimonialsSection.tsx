@@ -131,7 +131,7 @@ const TestimonialsSection = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-slide-up">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              <span className="bg-gradient-primary bg-clip-text text-transparent">Testimonials</span>
+               <span className="bg-gradient-primary bg-clip-text text-transparent">Testimonials</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               What colleagues and collaborators say about working with me on 
